@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T15:38:38 IST" name="Suite" finished-at="2022-08-05T15:38:53 IST" duration-ms="14683">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T15:38:38 IST" name="Test" finished-at="2022-08-05T15:38:53 IST" duration-ms="14683">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@4802796d]" started-at="2022-08-05T15:38:23 IST" name="init" finished-at="2022-08-05T15:38:38 IST" duration-ms="14875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="initObject()[pri:0, instance:tests.LoginTest@4802796d]" started-at="2022-08-05T15:38:38 IST" name="initObject" finished-at="2022-08-05T15:38:38 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObject -->
+        <test-method signature="verifybuttontext()[pri:1, instance:tests.LoginTest@4802796d]" started-at="2022-08-05T15:38:38 IST" name="verifybuttontext" finished-at="2022-08-05T15:38:38 IST" duration-ms="105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LOGIN] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LOGIN] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at tests.LoginTest.verifybuttontext(LoginTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybuttontext -->
+        <test-method signature="login()[pri:2, instance:tests.LoginTest@4802796d]" started-at="2022-08-05T15:38:39 IST" name="login" finished-at="2022-08-05T15:38:49 IST" duration-ms="9949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4802796d]" started-at="2022-08-05T15:38:53 IST" name="tearDown" finished-at="2022-08-05T15:38:53 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="initObject()[pri:0, instance:tests.HomePageTest@397fbdb]" started-at="2022-08-05T15:38:49 IST" name="initObject" finished-at="2022-08-05T15:38:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObject -->
+        <test-method signature="goToTab()[pri:1, instance:tests.HomePageTest@397fbdb]" started-at="2022-08-05T15:38:49 IST" name="goToTab" finished-at="2022-08-05T15:38:51 IST" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTab -->
+        <test-method signature="logout()[pri:2, instance:tests.HomePageTest@397fbdb]" started-at="2022-08-05T15:38:51 IST" name="logout" finished-at="2022-08-05T15:38:53 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
